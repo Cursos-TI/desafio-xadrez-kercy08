@@ -17,5 +17,14 @@ int main() {
         contador++; // Incrementa o contador
     }
 
+    // Movimento da Rainha: 8 casas para a esquerda
+    printf("\nMovimento da Rainha:\n");
+    int casasRainha = 8; // Número de casas a serem movidas
+    int i = 1;
+    do {
+        printf("Esquerda\n"); // Imprime a direção da movimentação da Rainha
+        i++; // Incrementa o contador
+    } while (i <= casasRainha); // Continua até mover para a esquerda 8 casas
+
     return 0;
 }
